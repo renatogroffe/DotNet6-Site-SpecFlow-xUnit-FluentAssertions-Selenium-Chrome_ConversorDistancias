@@ -40,7 +40,7 @@ namespace ConversorDistancias.Specs.Features
         public static void FeatureSetup()
         {
             testRunner = TechTalk.SpecFlow.TestRunnerManager.GetTestRunner();
-            TechTalk.SpecFlow.FeatureInfo featureInfo = new TechTalk.SpecFlow.FeatureInfo(new System.Globalization.CultureInfo("pt-BR"), "Features", "Conversão de distâncias de Milhas para Km", null, ProgrammingLanguage.CSharp, featureTags);
+            TechTalk.SpecFlow.FeatureInfo featureInfo = new TechTalk.SpecFlow.FeatureInfo(new System.Globalization.CultureInfo("pt-BR"), "Features", "Conversao de distancias de Milhas para Km", null, ProgrammingLanguage.CSharp, featureTags);
             testRunner.OnFeatureStart(featureInfo);
         }
         
@@ -81,7 +81,7 @@ namespace ConversorDistancias.Specs.Features
         }
         
         [Xunit.SkippableFactAttribute(DisplayName="ConversaoDistancia01")]
-        [Xunit.TraitAttribute("FeatureTitle", "Conversão de distâncias de Milhas para Km")]
+        [Xunit.TraitAttribute("FeatureTitle", "Conversao de distancias de Milhas para Km")]
         [Xunit.TraitAttribute("Description", "ConversaoDistancia01")]
         public void ConversaoDistancia01()
         {
@@ -99,20 +99,20 @@ this.ScenarioInitialize(scenarioInfo);
             {
                 this.ScenarioStart();
 #line 4
- testRunner.Given("que o valor da distância é de 1 milha(s)", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Dado ");
+ testRunner.Given("que o valor da distancia e de 1 milha(s)", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Dado ");
 #line hidden
 #line 5
- testRunner.When("eu solicitar a conversão desta distância", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Quando ");
+ testRunner.When("eu solicitar a conversao desta distancia", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Quando ");
 #line hidden
 #line 6
- testRunner.Then("o resultado será 1,609 Km", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Então ");
+ testRunner.Then("o resultado sera 1,609 Km", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Entao ");
 #line hidden
             }
             this.ScenarioCleanup();
         }
         
         [Xunit.SkippableFactAttribute(DisplayName="ConversaoDistancia02")]
-        [Xunit.TraitAttribute("FeatureTitle", "Conversão de distâncias de Milhas para Km")]
+        [Xunit.TraitAttribute("FeatureTitle", "Conversao de distancias de Milhas para Km")]
         [Xunit.TraitAttribute("Description", "ConversaoDistancia02")]
         public void ConversaoDistancia02()
         {
@@ -130,20 +130,20 @@ this.ScenarioInitialize(scenarioInfo);
             {
                 this.ScenarioStart();
 #line 9
- testRunner.Given("que o valor da distância é de 10,579 milha(s)", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Dado ");
+ testRunner.Given("que o valor da distancia e de 10,579 milha(s)", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Dado ");
 #line hidden
 #line 10
- testRunner.When("eu solicitar a conversão desta distância", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Quando ");
+ testRunner.When("eu solicitar a conversao desta distancia", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Quando ");
 #line hidden
 #line 11
- testRunner.Then("o resultado será 17,022 Km", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Então ");
+ testRunner.Then("o resultado sera 17,022 Km", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Entao ");
 #line hidden
             }
             this.ScenarioCleanup();
         }
         
         [Xunit.SkippableFactAttribute(DisplayName="ConversaoDistancia03")]
-        [Xunit.TraitAttribute("FeatureTitle", "Conversão de distâncias de Milhas para Km")]
+        [Xunit.TraitAttribute("FeatureTitle", "Conversao de distancias de Milhas para Km")]
         [Xunit.TraitAttribute("Description", "ConversaoDistancia03")]
         public void ConversaoDistancia03()
         {
@@ -161,20 +161,20 @@ this.ScenarioInitialize(scenarioInfo);
             {
                 this.ScenarioStart();
 #line 14
- testRunner.Given("que o valor da distância é de 500 milha(s)", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Dado ");
+ testRunner.Given("que o valor da distancia e de 500 milha(s)", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Dado ");
 #line hidden
 #line 15
- testRunner.When("eu solicitar a conversão desta distância", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Quando ");
+ testRunner.When("eu solicitar a conversao desta distancia", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Quando ");
 #line hidden
 #line 16
- testRunner.Then("o resultado será 804,5 Km", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Então ");
+ testRunner.Then("o resultado sera 804,5 Km", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Entao ");
 #line hidden
             }
             this.ScenarioCleanup();
         }
         
         [Xunit.SkippableFactAttribute(DisplayName="ConversaoDistancia04")]
-        [Xunit.TraitAttribute("FeatureTitle", "Conversão de distâncias de Milhas para Km")]
+        [Xunit.TraitAttribute("FeatureTitle", "Conversao de distancias de Milhas para Km")]
         [Xunit.TraitAttribute("Description", "ConversaoDistancia04")]
         public void ConversaoDistancia04()
         {
@@ -192,20 +192,20 @@ this.ScenarioInitialize(scenarioInfo);
             {
                 this.ScenarioStart();
 #line 19
- testRunner.Given("que o valor da distância é de 750,5 milha(s)", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Dado ");
+ testRunner.Given("que o valor da distancia e de 750,5 milha(s)", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Dado ");
 #line hidden
 #line 20
- testRunner.When("eu solicitar a conversão desta distância", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Quando ");
+ testRunner.When("eu solicitar a conversao desta distancia", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Quando ");
 #line hidden
 #line 21
- testRunner.Then("o resultado será 1.207,554 Km", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Então ");
+ testRunner.Then("o resultado sera 1.207,554 Km", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Entao ");
 #line hidden
             }
             this.ScenarioCleanup();
         }
         
         [Xunit.SkippableFactAttribute(DisplayName="ConversaoDistancia05")]
-        [Xunit.TraitAttribute("FeatureTitle", "Conversão de distâncias de Milhas para Km")]
+        [Xunit.TraitAttribute("FeatureTitle", "Conversao de distancias de Milhas para Km")]
         [Xunit.TraitAttribute("Description", "ConversaoDistancia05")]
         public void ConversaoDistancia05()
         {
@@ -223,20 +223,20 @@ this.ScenarioInitialize(scenarioInfo);
             {
                 this.ScenarioStart();
 #line 24
- testRunner.Given("que o valor da distância é de 1300 milha(s)", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Dado ");
+ testRunner.Given("que o valor da distancia e de 1300 milha(s)", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Dado ");
 #line hidden
 #line 25
- testRunner.When("eu solicitar a conversão desta distância", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Quando ");
+ testRunner.When("eu solicitar a conversao desta distancia", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Quando ");
 #line hidden
 #line 26
- testRunner.Then("o resultado será 2.091,7 Km", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Então ");
+ testRunner.Then("o resultado sera 2.091,7 Km", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Entao ");
 #line hidden
             }
             this.ScenarioCleanup();
         }
         
         [Xunit.SkippableFactAttribute(DisplayName="ConversaoDistancia06")]
-        [Xunit.TraitAttribute("FeatureTitle", "Conversão de distâncias de Milhas para Km")]
+        [Xunit.TraitAttribute("FeatureTitle", "Conversao de distancias de Milhas para Km")]
         [Xunit.TraitAttribute("Description", "ConversaoDistancia06")]
         public void ConversaoDistancia06()
         {
@@ -254,13 +254,13 @@ this.ScenarioInitialize(scenarioInfo);
             {
                 this.ScenarioStart();
 #line 29
- testRunner.Given("que o valor da distância é de 2000,123 milha(s)", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Dado ");
+ testRunner.Given("que o valor da distancia e de 2000,123 milha(s)", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Dado ");
 #line hidden
 #line 30
- testRunner.When("eu solicitar a conversão desta distância", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Quando ");
+ testRunner.When("eu solicitar a conversao desta distancia", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Quando ");
 #line hidden
 #line 31
- testRunner.Then("o resultado será 3218,198 Km", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Então ");
+ testRunner.Then("o resultado sera 3218,198 Km", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Entao ");
 #line hidden
             }
             this.ScenarioCleanup();

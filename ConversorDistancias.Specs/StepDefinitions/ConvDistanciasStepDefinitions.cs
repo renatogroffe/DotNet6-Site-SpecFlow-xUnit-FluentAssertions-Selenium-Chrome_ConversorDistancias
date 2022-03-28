@@ -22,13 +22,13 @@ public sealed class ConvDistanciasStepDefinitions
         CultureInfo.DefaultThreadCurrentUICulture = new("pt-BR");
     }
 
-    [Given("que o valor da distância é de (.*) milha\\(s\\)")]
+    [Given("que o valor da distancia e de (.*) milha\\(s\\)")]
     public void PreencherDistanciaMilhas(double distanciaMilhas)
     {
         _distanciaMilhas = distanciaMilhas;
     }
 
-    [When("eu solicitar a conversão desta distância")]
+    [When("eu solicitar a conversao desta distancia")]
     public void ProcessarConversao()
     {
         var conversor = new ConvDistanciasPageObject(_configuration);
@@ -40,9 +40,9 @@ public sealed class ConvDistanciasStepDefinitions
         conversor.Close();
     }
 
-    [Then("o resultado será (.*) Km")]
+    [Then("o resultado sera (.*) Km")]
     public void ValidarResultadoKm(double distanciaKm)
     {
-        _resultadoKm.Should().Be(distanciaKm, " *** provável problema de arredondamento *** ");
+        _resultadoKm.Should().Be(distanciaKm, " *** provavel problema de arredondamento *** ");
     }
 }
